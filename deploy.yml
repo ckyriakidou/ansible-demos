@@ -1,0 +1,6 @@
+---
+- name: Deploy web application
+  become: yes
+
+  roles:
+    - { role: app }
