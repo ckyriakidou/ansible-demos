@@ -1,6 +1,6 @@
 ---
 - name: Deploy web application
-  host: all
+  hosts: all
   become: yes
 
   roles:
